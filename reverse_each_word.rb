@@ -8,7 +8,7 @@ def reverse_each_word(string)# define method with string as arg
 #binding.pry
 #  end
   #new_array.join(" ") # joined into one string
-  array.collect{|word|word.reverse!} # orginal array ran through block with bang opreator
+  array.collect{|word|word.reverse} # orginal array ran through block with bang opreator
  array.join(" ")
   #binding.pry
 end
